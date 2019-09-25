@@ -7,6 +7,8 @@ namespace CSharpEight.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine($"Environment.Version: {Environment.Version}");
+
+            new Ranges_Indices().Indices();
         }
     }
 }
